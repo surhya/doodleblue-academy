@@ -1,0 +1,33 @@
+body {
+    background-color: aqua;
+}
+
+.row::after {
+    display: table;
+}
+
+.column {
+    /* width: 50%; */
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+.column-left {
+    width: 25%;
+    background-color: beige;
+}
+
+.column-right {
+    width: 25%;
+    background-color: bisque;
+}
+
+.column-center {
+    width: 50%;
+    background-color:blueviolet;
+}
+
+.image {
+    width: 100px;
+}
